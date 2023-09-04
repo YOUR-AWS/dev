@@ -1,0 +1,58 @@
+.slide{
+    display: flex;
+    justify-content: center;
+    margin: 90px 0;
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 1400px;
+        justify-content: center;
+        gap: 30px;
+        .title{
+            h1{
+                color: #404145;
+                font-family: Macan,Helvetica Neue,Helvetica,Arial,sans-serif;
+                font-weight: 700;
+            }
+            
+            
+        }
+        .caroussel{
+            .swiper{
+                height: 360px;
+                display: flex;
+    
+                .swiper-slide img {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                  }
+
+                  .swipperslide{
+                    position: relative;
+                    .desc{
+                        position: absolute;
+                        top: 0;
+                        padding: 20px;
+                        h4{
+                            font-size: 20px;
+                            line-height: 140%;
+                            
+                            small{
+                                font-size: 14px !important;
+                                line-height: 20px;
+                                font-weight: 400;
+                                display: block;
+                            }
+                        }
+
+                    }
+                  }
+                
+            }
+        }
+        
+    }
+}
